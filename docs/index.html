@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hMRI Workshop</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #004d7a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #00334e;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #004d7a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>hMRI Workshop</h1>
+    <p>Introduction to quantitative MRI using the hMRI Toolbox</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#materials">Materials</a>
+</nav>
+
+<div class="container">
+    <h2 id="about">About the Workshop</h2>
+    <p>
+        Welcome to the hMRI Workshop! This event provides an introduction to quantitative MRI
+        through the hMRI Toolbox.     </p>
+
+    <h2 id="schedule">*Tentative* Schedule</h2>
+
+    <h3>Session 1</h3>
+    <table style="width:100%; border-collapse: collapse; margin-bottom: 30px;">
+        <tr style="background:#e6f2f7;">
+            <th style="padding:8px; border:1px solid #ccc;">Time</th>
+            <th style="padding:8px; border:1px solid #ccc;">Topic</th>
+            <th style="padding:8px; border:1px solid #ccc;">Speaker</th>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">13:30–13:55</td>
+            <td style="padding:8px; border:1px solid #ccc;">Fundamentals</td>
+            <td style="padding:8px; border:1px solid #ccc;">Antoine</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">13:55–14:20</td>
+            <td style="padding:8px; border:1px solid #ccc;">Maps</td>
+            <td style="padding:8px; border:1px solid #ccc;">Antoine</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">14:20–14:45</td>
+            <td style="padding:8px; border:1px solid #ccc;">Error maps</td>
+            <td style="padding:8px; border:1px solid #ccc;">Antoine (or Siawoosh)</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">14:45–15:10</td>
+            <td style="padding:8px; border:1px solid #ccc;">Break</td>
+            <td style="padding:8px; border:1px solid #ccc;"></td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">15:10–15:35</td>
+            <td style="padding:8px; border:1px solid #ccc;">Denoising</td>
+            <td style="padding:8px; border:1px solid #ccc;">Baris</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">15:35–16:00</td>
+            <td style="padding:8px; border:1px solid #ccc;">Spatial processing</td>
+            <td style="padding:8px; border:1px solid #ccc;">Chris</td>
+        </tr>
+    </table>
+
+    <h3>Session 2</h3>
+    <table style="width:100%; border-collapse: collapse;">
+        <tr style="background:#e6f2f7;">
+            <th style="padding:8px; border:1px solid #ccc;">Time</th>
+            <th style="padding:8px; border:1px solid #ccc;">Topic</th>
+            <th style="padding:8px; border:1px solid #ccc;">Speaker</th>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">17:30–18:05</td>
+            <td style="padding:8px; border:1px solid #ccc;">QUIQI</td>
+            <td style="padding:8px; border:1px solid #ccc;">Antoine</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">18:05–18:40</td>
+            <td style="padding:8px; border:1px solid #ccc;">Multivariate ML/DL</td>
+            <td style="padding:8px; border:1px solid #ccc;">Chris (or Ferath)</td>
+        </tr>
+        <tr>
+            <td style="padding:8px; border:1px solid #ccc;">18:40–19:00</td>
+            <td style="padding:8px; border:1px solid #ccc;">Closing</td>
+            <td style="padding:8px; border:1px solid #ccc;"></td>
+        </tr>
+    </table>
+
+    <h2 id="materials">Workshop Materials</h2>
+    <p>
+       links:
+    </p>
+    <ul>
+        <li><a href="https://github.com/hMRI-group/hMRI-toolbox">hMRI Toolbox GitHub repo</a></li>
+        <li><a href="https://github.com/hMRI-group/hMRI-toolbox-demodata">Example Dataset</a></li>
+    </ul>
+</div>
+
+<footer>
+    © 2026 hMRI Group — Workshop Website
+</footer>
+
+</body>
+</html>
